@@ -1,7 +1,7 @@
 import { View, Text, ImageBackground, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 import styles from './styles'
-import { arrowRight, backgroundOnboarding, iconStar } from '../assets'
+import { arrowRight, backgroundOnboarding, iconStar } from '../../assets'
 
 export default function Onboarding() {
     return (

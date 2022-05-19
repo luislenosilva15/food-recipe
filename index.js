@@ -1,5 +1,6 @@
+import React, { useState } from 'react'
 import { AppRegistry } from 'react-native';
 import { name as appName } from './app.json';
-import Onboarding from './src/Onboarding'
+import App from './App'
 
-AppRegistry.registerComponent(appName, () => Onboarding);
+AppRegistry.registerComponent(appName, () => App);

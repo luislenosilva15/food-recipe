@@ -1,11 +1,11 @@
 import { StyleSheet, ImageBackground } from 'react-native';
-import { maskBlack, red, white } from '../helpers/colors';
-import { fontWeightLarger, fontWeightMedium, fontWeightSmall, textLarge, textMedium, textTitle } from '../helpers/fontsSize';
+import { fontWeightLarger, fontWeightMedium, fontWeightSmall, textLarge, textMedium, textTitle } from '../../helpers/fontsSize';
+import { primary, white, mask } from '../../helpers/contants/colors'
 
 
 export default StyleSheet.create({
     container: {
-        backgroundColor: maskBlack,
+        backgroundColor: mask.transparent10,
         flex: 1,
         padding: 20,
         alignItems: 'center',
@@ -19,13 +19,13 @@ export default StyleSheet.create({
     label: {
         padding: 2,
         fontSize: textMedium,
-        color: white,
+        color: white.color0,
         fontWeight: fontWeightLarger
     },
     label2: {
         padding: 2,
         fontSize: textMedium,
-        color: white,
+        color: white.color0,
         fontWeight: fontWeightMedium
 
     },
@@ -38,17 +38,17 @@ export default StyleSheet.create({
     },
     title: {
         fontWeight: fontWeightLarger,
-        color: white,
+        color: white.color0,
         fontSize: 46
     },
     describe: {
         marginBottom: 30,
-        color: white,
-        fontWeightSmall,
+        color: white.color0,
+        fontWeight: fontWeightSmall,
 
     },
     button: {
-        backgroundColor: red,
+        backgroundColor: primary.color50,
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
@@ -58,7 +58,7 @@ export default StyleSheet.create({
     },
     buttonText: {
         fontSize: textMedium,
-        color: white,
+        color: white.color0,
         marginRight: 15,
         fontWeight: fontWeightMedium
     },
