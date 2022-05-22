@@ -4,20 +4,16 @@ import { neutral } from '../../../../helpers/contants/colors';
 
 export default StyleSheet.create({
     container: {
+        marginBottom: 10,
+    },
+    titleContainer: {
+        marginBottom: 8,
+        marginHorizontal: 20,
         flexDirection: 'row',
         alignItems: 'center',
-        borderRadius: 10,
-        borderWidth: 1,
-        borderColor: neutral.color30,
-        height: 47,
-        marginHorizontal: 20
-
+        justifyContent: 'space-between'
     },
-    icon: {
-        margin: 10,
-        marginTop: 7,
-    },
-    input: {
-        width: '90%'
+    flatList: {
+        marginLeft: 10
     }
 });

@@ -7,10 +7,12 @@ export default StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'white',
-        padding: 20
+
+
     },
     titleContainer: {
-        marginTop: 15,
+        marginHorizontal: 20,
+        marginTop: 25,
         marginBottom: 25
     },
 

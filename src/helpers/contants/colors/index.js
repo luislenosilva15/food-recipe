@@ -8,9 +8,11 @@ export const white = {
 }
 
 export const mask = {
-    transparent10: 'rgba(	0, 0 , 0, 0.1)'
+    transparent10: 'rgba(	0, 0 , 0, 0.1)',
+    transparent30: 'rgba(	0, 0 , 0, 0.3)'
 }
 export const neutral = {
     color90: '#303030',
-    color30: '#C1C1C1'
+    color30: '#C1C1C1',
+    color40: '#A9A9A9',
 }

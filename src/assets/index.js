@@ -16,3 +16,8 @@ export { default as bookmarkIconFocused } from './images/icons/Bookmark/Active.p
 
 export { default as searchIcon } from './images/icons/search/searchIcon.png'
 export { default as arrowRightRedIcon } from './images/icons/ArrowRight/red/arrowRight.png'
+
+export { default as bookmarkCardActive } from './images/icons/BookmarkCard/Active.png'
+export { default as bookmarkCardInactive } from './images/icons/BookmarkCard/Inactive.png'
+
+export { default as threePointsHorizontal } from './images/icons/ThreePointsHorizontal/ThreePointsHorizontal.png'

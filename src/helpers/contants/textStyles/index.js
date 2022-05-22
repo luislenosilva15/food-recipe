@@ -5,13 +5,13 @@ import { neutral } from '../colors';
 export default StyleSheet.create({
     h4Bold: {
         fontSize: 24,
-        fontFamily: 'Poppins-Bold',
+        fontFamily: 'Poppins-SemiBold',
         color: neutral.color90,
     },
 
     h5Bold: {
         fontSize: 20,
-        fontFamily: 'Poppins-Bold',
+        fontFamily: 'Poppins-SemiBold',
         color: neutral.color90,
     },
 
@@ -21,7 +21,24 @@ export default StyleSheet.create({
     },
     labelBold: {
         fontSize: 14,
-        fontFamily: 'Poppins-Bold',
+        fontFamily: 'Poppins-SemiBold',
     },
+    paragraphBold: {
+        fontSize: 16,
+        fontFamily: 'Poppins-Bold',
+        color: neutral.color90,
+    },
+    smallBoldsmallRegular: {
+        fontSize: 12,
+        fontFamily: 'Poppins-Regular',
+    },
+    smallBold: {
+        fontSize: 12,
+        fontFamily: 'Poppins-SemiBold',
+    },
+    tiny: {
+        fontSize: 10,
+        fontFamily: 'Poppins-Regular',
+    }
 
 });
