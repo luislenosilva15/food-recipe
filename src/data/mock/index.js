@@ -91,3 +91,33 @@ export const popularCreatorsData = [
 
     },
 ]
+
+export const savedRecipesData = [
+    {
+        _id: 1,
+        recipeImage: require('../images/trendingList/image1.png'),
+        title: 'How to make sushi at home',
+        star: 4.1,
+        isFavorite: false,
+        userCreateName: 'Niki Samantha',
+        userCreateImage: require('../images/trendingList/profile1.jpeg'),
+    },
+    {
+        _id: 2,
+        recipeImage: require('../images/trendingList/image2.png'),
+        title: 'How to make sushi at home',
+        star: 3.4,
+        isFavorite: true,
+        userCreateName: 'Niki Samantha',
+        userCreateImage: require('../images/trendingList/profile1.jpeg'),
+    },
+    {
+        _id: 3,
+        recipeImage: require('../images/trendingList/image3.png'),
+        title: 'How to make ',
+        star: 4.4,
+        isFavorite: true,
+        userCreateName: 'Niki Samantha',
+        userCreateImage: require('../images/trendingList/profile1.jpeg'),
+    }
+]

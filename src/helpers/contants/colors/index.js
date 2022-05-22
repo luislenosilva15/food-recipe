@@ -1,6 +1,7 @@
 export const primary = {
     color10: '#F9D8D8',
     color20: '#F3B2B2',
+    color30: '#EE8B8B',
     color50: '#E23E3E',
 }
 export const white = {

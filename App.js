@@ -7,6 +7,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { View, Text, ImageBackground, Image, TouchableOpacity, StyleSheet } from 'react-native'
 import { homeIcon, homeIconFocused, profileIconFocused, profileIcon, bookmarkIcon, bookmarkIconFocused, notificationIcon, notificationIconFocused } from './src/assets';
 import TabBarIcon from './src/components/TabBarIcon';
+import SavedRecipes from './src/screens/SavedRecipes';
 
 
 const Stack = createStackNavigator();
@@ -40,7 +41,7 @@ function DefaultStacks() {
 
                 }} />
 
-                <Tab.Screen name="Discover" component={Home} options={{
+                <Tab.Screen name="SavedRecipes" component={SavedRecipes} options={{
                     tabBarIcon: ({ focused, size }) => (
                         <TabBarIcon size={size} icon={bookmarkIcon} iconFocused={bookmarkIconFocused} focused={focused} />
                     )
