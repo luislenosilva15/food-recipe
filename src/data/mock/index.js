@@ -121,3 +121,32 @@ export const savedRecipesData = [
         userCreateImage: require('../images/trendingList/profile1.jpeg'),
     }
 ]
+
+export const recipeDetails = {
+    _id: 1,
+    title: 'toast with cheese',
+    image: require('../images/recipeDetails/image1.png'),
+    star: 4.3,
+    portion: '5',
+    cookTime: '45 min',
+    userCreateDetails: {
+        name: 'Adriana silva',
+        image: require('../images/recipeDetails/profile.jpeg'),
+        address: 'Curitiba, Parana'
+    },
+    Ingredients: [
+        {
+            name: 'Bread',
+            quantity: '200g',
+        },
+        {
+            name: 'eggs',
+            quantity: '1un',
+        },
+        {
+            name: 'milk',
+            quantity: '200ml',
+        }
+    ],
+
+}

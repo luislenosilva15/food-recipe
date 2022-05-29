@@ -13,6 +13,7 @@ export const mask = {
     transparent30: 'rgba(	0, 0 , 0, 0.3)'
 }
 export const neutral = {
+    color10: '#F1F1F1',
     color90: '#303030',
     color30: '#C1C1C1',
     color40: '#A9A9A9',

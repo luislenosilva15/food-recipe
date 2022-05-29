@@ -25,7 +25,7 @@ export default StyleSheet.create({
     },
     paragraphBold: {
         fontSize: 16,
-        fontFamily: 'Poppins-Bold',
+        fontFamily: 'Poppins-SemiBold',
         color: neutral.color90,
     },
     smallBoldsmallRegular: {
