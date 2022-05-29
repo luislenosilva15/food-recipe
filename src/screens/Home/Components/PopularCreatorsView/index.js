@@ -1,6 +1,5 @@
-import { View, Text, FlatList, SafeAreaView } from 'react-native'
+import { View, Text, FlatList, SafeAreaView, TouchableOpacity } from 'react-native'
 import React from 'react'
-
 import SeeAllButton from '../../../../components/SeeAllButton'
 import { popularCreatorsData } from '../../../../data/mock'
 import textStyles from '../../../../helpers/contants/textStyles'
@@ -13,6 +12,7 @@ export default function PopularCreatorsView() {
 
             <View style={styles.titleContainer}>
                 <Text style={textStyles.h5Bold}>Popular creators</Text>
+
                 <SeeAllButton />
             </View>
             <SafeAreaView style={styles.container}>
