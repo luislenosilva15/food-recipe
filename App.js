@@ -46,7 +46,7 @@ function HomeTabs() {
 
             }} />
 
-            <Tab.Screen name="Profile" component={Home} options={{
+            <Tab.Screen name="Profile" component={Profile} options={{
                 tabBarIcon: ({ focused, size }) => (
                     <TabBarIcon size={size} icon={profileIcon} iconFocused={profileIconFocused} focused={focused} />
                 )
