@@ -28,7 +28,7 @@ export const trendingListData = [
         userCreateName: 'Niki Samantha',
         userCreateImage: require('../images/trendingList/profile1.jpeg'),
     }
-]
+];
 
 export const recentListData = [
     {
@@ -92,6 +92,71 @@ export const popularCreatorsData = [
     },
 ]
 
+export const detailsUser = [
+    {
+        _id: 1,
+        image: require('../images/profile/1.png'),
+        name: 'Alessandra Blair',
+        description: "Hello world I'm Alessandra Blair, I'm from Italy 🇮🇹 I love cooking so much!",
+        numberOfRecipes: 3,
+        stars: 5,
+        followers: 14 ,
+        following: 120
+
+    },
+    {
+        _id: 2,
+        image: require('../images/profile/2.png'),
+        name: 'Bryan Styf',
+        description: "Hello world I'm Bryan styf I live in Canada and I love to cook!",
+        numberOfRecipes: 10,
+        stars: 3,
+        followers: 10,
+        following: 20
+
+    },
+    {
+        _id: 3,
+        image: require('../images/profile/3.png'),
+        name: 'Taylor Megan',
+        description: "Hello world I'm Taylor Megan I live in Estados unidos and I love to cook!",
+        numberOfRecipes: 5,
+        stars: 5,
+        followers: 14,
+        following: 50
+
+    },
+    
+]
+
+export const recipeDetails = {
+    _id: 1,
+    title: 'toast with cheese',
+    image: require('../images/recipeDetails/image1.png'),
+    star: 4.3,
+    portion: '5',
+    cookTime: '45 min',
+    userCreateDetails: {
+        name: 'Adriana silva',
+        image: require('../images/recipeDetails/profile.jpeg'),
+        address: 'Curitiba, Parana'
+    },
+    Ingredients: [
+        {
+            name: 'Bread',
+            quantity: '200g',
+        },
+        {
+            name: 'eggs',
+            quantity: '1un',
+        },
+        {
+            name: 'milk',
+            quantity: '200ml',
+        }
+    ],
+    
+}
 export const savedRecipesData = [
     {
         _id: 1,
@@ -121,32 +186,37 @@ export const savedRecipesData = [
         userCreateImage: require('../images/trendingList/profile1.jpeg'),
     }
 ]
-
-export const recipeDetails = {
-    _id: 1,
-    title: 'toast with cheese',
-    image: require('../images/recipeDetails/image1.png'),
-    star: 4.3,
-    portion: '5',
-    cookTime: '45 min',
-    userCreateDetails: {
-        name: 'Adriana silva',
-        image: require('../images/recipeDetails/profile.jpeg'),
-        address: 'Curitiba, Parana'
+export const recipesProfile = [
+    {
+        _id: 1,
+        recipeImage: require('../images/recipeUser/1.png'),
+        title: 'How to make Italian Spaghetti at home',
+        description: "12 Ingredients",
+        time: "40 min",
+        star: 5.1 ,
+        isFavorite: false,
+       
     },
-    Ingredients: [
-        {
-            name: 'Bread',
-            quantity: '200g',
-        },
-        {
-            name: 'eggs',
-            quantity: '1un',
-        },
-        {
-            name: 'milk',
-            quantity: '200ml',
-        }
-    ],
-
-}
+    {
+        _id: 2,
+        recipeImage: require('../images/recipeUser/2.png'),
+        title: 'Simple chicken meal prep dishes',
+        description: "10 Ingredients",
+        time: "40 min",
+        star: 4.7,
+        isFavorite: false,
+       
+    },
+    {
+        _id: 3,
+        recipeImage: require('../images/recipeUser/3.png'),
+        title: 'Japanese fried rice',
+        description: "12 Ingredients",
+        time: "40 min",
+        star: 4.2,
+        isFavorite: false,
+       
+    },
+    
+    
+];

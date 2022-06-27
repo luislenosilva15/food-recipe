@@ -1,15 +1,23 @@
-import { View, Text } from 'react-native'
+import { View, Text, ScrollView } from 'react-native'
+import { detailsUser, recipesProfile } from '../../data/mock';
 import React from 'react'
-import { createStackNavigator } from '@react-navigation/stack';
-import { TouchableOpacity } from 'react-native-gesture-handler';
-
+import textStyles from '../../helpers/contants/textStyles'
+import styles from './styles';
+import DetailsUser from './Components/DetailsUser';
+import Line from './Components/Line';
+import ListUserRecipes from './Components/ListUserRecipes';
 
 export default function Profile({ navigation }) {
+    const Editprofile = () => { navigation.navigate('EditProfile') }
+
     return (
-        <View>
-            <TouchableOpacity onPress={() => { navigation.navigate('EditProfile') }}>
-                <Text>aqui</Text>
-            </TouchableOpacity>
-        </View>
+        <ScrollView style={styles.container}>
+            <View style={styles.titleContainer}>
+                <Text style={textStyles.h4Bold}>My Profile</Text>
+            </View>
+            < DetailsUser data={detailsUser[0]} navigator={Editprofile} />
+            <Line />
+            <ListUserRecipes data={recipesProfile} />
+        </ScrollView>
     );
 }

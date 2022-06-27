@@ -8,8 +8,8 @@ import { homeIcon, homeIconFocused, profileIconFocused, profileIcon, bookmarkIco
 import TabBarIcon from './src/components/TabBarIcon';
 import SavedRecipes from './src/screens/SavedRecipes';
 import Profile from './src/screens/Profile';
-import EdirProfile from './src/screens/EditProfile';
 import RecipeDetails from './src/screens/RecipeDetails';
+import EditProfile from './src/screens/EditProfile';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -65,6 +65,7 @@ function DefaultNavigation() {
         }} >
             <Stack.Screen name="HomeTabs" component={HomeTabs} />
             <Stack.Screen name="RecipeDetails" component={RecipeDetails} />
+            <Stack.Screen name="EditProfile" component={EditProfile} />
 
         </Stack.Navigator>
     )

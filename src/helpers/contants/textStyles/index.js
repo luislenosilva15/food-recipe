@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { primary, white, mask } from '../../helpers/contants/colors'
+import { primary, white, mask } from '../colors'
 import { neutral } from '../colors';
 
 export default StyleSheet.create({
@@ -18,10 +18,13 @@ export default StyleSheet.create({
     labelRegular: {
         fontSize: 14,
         fontFamily: 'Poppins-Regular',
+        color: neutral.color40,
+
     },
     labelBold: {
         fontSize: 14,
         fontFamily: 'Poppins-SemiBold',
+        color: primary.color50,
     },
     paragraphBold: {
         fontSize: 16,
@@ -36,9 +39,16 @@ export default StyleSheet.create({
         fontSize: 12,
         fontFamily: 'Poppins-SemiBold',
     },
+    smallRegular: {
+        fontSize: 12,
+        fontFamily: 'Poppins-Regular',
+    },
     tiny: {
         fontSize: 10,
         fontFamily: 'Poppins-Regular',
-    }
+    },
+
+ 
+   
 
 });

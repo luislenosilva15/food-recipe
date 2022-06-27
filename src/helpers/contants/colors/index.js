@@ -17,4 +17,5 @@ export const neutral = {
     color90: '#303030',
     color30: '#C1C1C1',
     color40: '#A9A9A9',
+    color20: '#D9D9D9'
 }
